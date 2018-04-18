@@ -1,0 +1,9 @@
+CREATE TABLE `vehicules` (
+  `id` int(11) NOT NULL,
+  `immatricule` varchar(200) NOT NULL,
+  `caracteristiques_id` int(11) NOT NULL,
+  `date_of_service` date NOT NULL,
+  `energie_type` int(11) NOT NULL,
+  `effectiveDate` date NOT NULL,
+  `endeffectiveDate` date DEFAULT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;

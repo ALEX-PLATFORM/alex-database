@@ -1,0 +1,13 @@
+CREATE TABLE `fourniture_service_transport` (
+  `ID` int(11) NOT NULL,
+  `serviceId` int(11) NOT NULL,
+  `vehiculeID` int(11) NOT NULL,
+  `driverID` int(11) NOT NULL,
+  `adresseDepartID` int(11) NOT NULL,
+  `AdresseDestinationID` int(11) NOT NULL,
+  `startTimeDisponibility` datetime NOT NULL,
+  `locationlastTime` datetime NOT NULL,
+  `status` varchar(20) NOT NULL,
+  `effectiveDate` date NOT NULL,
+  `endEffectiveDate` date DEFAULT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;

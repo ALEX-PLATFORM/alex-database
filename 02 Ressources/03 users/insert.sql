@@ -1,0 +1,2 @@
+INSERT INTO `users` (`ID`, `customerID`, `firstname`, `lastName`, `email`, `phonenumber`, `effectiveDate`, `endEffectiveDate`) VALUES
+(1, 1, 'khalil', 'daou', 'khalil.daou@gmail.com', '0699738518', '2018-04-16', NULL);

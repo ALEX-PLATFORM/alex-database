@@ -1,0 +1,1 @@
+INSERT INTO `paymentType` (`ID`, `CODE`, `Label`, `effectiveDate`, `endEffectiveDate`) VALUES (NULL, 'VIR', 'virement', CURRENT_DATE(), NULL); 

@@ -1,0 +1,11 @@
+CREATE TABLE `caracteristiques_vehicules` (
+  `id` int(11) NOT NULL,
+  `marque` varchar(200) NOT NULL,
+  `nbPlace` int(11) NOT NULL,
+  `TailleCoffre` int(11) NOT NULL,
+  `transportHandicap` tinyint(1) NOT NULL,
+  `transportHospitalier` tinyint(1) NOT NULL,
+  `transportMatieresDangereuses` tinyint(1) NOT NULL,
+  `effectiveDate` date NOT NULL,
+  `endEffectiveDate` date DEFAULT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;

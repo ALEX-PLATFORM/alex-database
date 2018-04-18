@@ -1,0 +1,13 @@
+CREATE TABLE `drivers` (
+  `ID` int(11) NOT NULL,
+  `immatricule` varchar(30) NOT NULL,
+  `lastname` varchar(200) NOT NULL,
+  `firstname` varchar(200) NOT NULL,
+  `date_of_birth` date DEFAULT NULL,
+  `license_driver` varchar(200) DEFAULT NULL,
+  `date_of_license` date DEFAULT NULL,
+  `email` varchar(200) NOT NULL,
+  `phone_number` varchar(200) NOT NULL,
+  `effectiveDate` date NOT NULL,
+  `endEffectiveDate` date DEFAULT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;

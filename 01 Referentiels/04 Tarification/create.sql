@@ -1,0 +1,9 @@
+CREATE TABLE `tarification` (
+  `Id` int(11) NOT NULL,
+  `from_departement_code` int(11) NOT NULL,
+  `to_departement_code` int(11) NOT NULL,
+  `total_price_course` int(11) NOT NULL,
+  `alex_marge` int(11) NOT NULL,
+  `effectiveDate` date NOT NULL,
+  `endEffectiveDate` date DEFAULT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;

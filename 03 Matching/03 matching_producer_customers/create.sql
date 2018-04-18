@@ -1,0 +1,9 @@
+CREATE TABLE `matching_producer_customers` (
+  `ID` int(11) NOT NULL,
+  `matchingId` int(11) NOT NULL,
+  `producerID` int(11) NOT NULL,
+  `customersID` int(11) NOT NULL,
+  `Status` varchar(30) NOT NULL,
+  `effectiveDate` date NOT NULL,
+  `endEffectiveDate` date DEFAULT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;

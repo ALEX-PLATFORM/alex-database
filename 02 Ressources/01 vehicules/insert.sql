@@ -1,0 +1,2 @@
+INSERT INTO `vehicules` (`id`, `immatricule`, `caracteristiques_id`, `date_of_service`, `energie_type`, `effectiveDate`, `endeffectiveDate`) VALUES
+(1, 'TRGW38839', 1, '2012-04-01', 1, '2018-04-16', NULL);

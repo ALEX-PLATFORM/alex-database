@@ -1,0 +1,5 @@
+ALTER TABLE `paymenttype`
+  ADD PRIMARY KEY (`ID`);
+ALTER TABLE `paymenttype`
+  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  

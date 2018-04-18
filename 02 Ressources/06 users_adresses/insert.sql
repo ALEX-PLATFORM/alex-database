@@ -1,0 +1,1 @@
+INSERT INTO `users_adresses` (`ID`, `customerID`, `adresseID`, `isPrincipale`, `effectiveDate`, `endEffectiveDate`) VALUES (NULL, '1', '1', '1', CURRENT_DATE(), NULL);
